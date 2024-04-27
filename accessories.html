@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+        header .icon{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        header .icon img{
+            width: 45px;
+            margin: 10px;
+        }
+        header .icon a{
+            text-align: end;
+            font-size: 25px;
+            text-decoration: none;
+            color: red;
+            margin: 10px;
+            transition: 0.3s;
+        }
+        header .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .navbar img{
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        header .navbar ul{
+            margin-right: 400px;
+            overflow: hidden;
+        }
+        header .navbar ul li{
+            float: left;
+            list-style: none;
+            transition: 0.3s;
+        }
+        header .navbar ul li a{
+            font-size: 30px;
+            margin: 0px 40px;
+            text-decoration: none;
+            color: black;
+        }
+        .container{
+            width: 100%;
+            height: 420px;
+            display: flex;
+            flex-direction: row;
+        }
+        .container .cell1{
+            width: 20%;
+        }
+        .container .cell1 h2{
+            font-size: 40px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+        .container .cell1 ul{
+            list-style: none;
+            line-height: 40px;
+            font-size: 30px;
+            font-weight: normal;
+            margin-left: 20px;
+        }
+        .container .cell2{
+            width: 80%;
+            text-align: center;
+        }
+        .container .cell2 p{
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: red;
+        }
+        .container .cell2 h1{
+            font-size: 50px;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+        .container .cell2 img{
+            width: 150px;
+            height: 150px;
+        }
+        .container .cell2 ul{
+            margin-top: 20px;
+            overflow: auto;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        .container .cell2 ul li{
+            float: left;
+            margin: 0px 20px;
+            font-size: 25px;
+        }
+        .container .shoes-cell{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .container .shoes-cell .shoes{
+            line-height: 40px;
+            font-size: 30px;
+            width: 30%;
+            margin: 10px;
+        }
+        .container .shoes-cell .shoes img{
+            width: 300px;
+            height: 300px;
+        }
+        .container  .shoes-cell .shoes .sale{
+            color: red;
+        }
+        .container .shoes-cell .shoes .gender{
+            color: rgba(0, 0, 0, 0.7);
+        }
+        .container .shoes-cell .shoes .mrp{
+            font-weight: bold;
+        }
+        .item:hover{
+            scale: 1.1;
+        }
+        .shoes img{
+            cursor: pointer;
+            transition: .3s linear;
+        }
+        .shoes img:hover{
+            scale: 1.1;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <img src="Jumpman_logo.svg.png" alt="">
+            <a href="contact.html" class="item">Contact US</a>
+        </div>
+        <nav class="navbar">
+            <img src="nike.png">
+            <ul>
+                <li class="item"><a href="menshoes.html">New & Featured</a></li>
+                <li class="item"><a href="Women;s.html">Women's</a></li>
+                <li class="item"><a href="KID'ss.html">Kid's</a></li>
+                <li class="item"><a href="#">Accessories</a></li>
+                <li class="item"><a href="sale.html">Sale</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="cell1">
+            <h2>Men's Jordan Shoes</h2>
+            <ul>
+                <li>Low Top</li>
+                <li>Mid Top</li>
+                <li>High Top</li>
+            </ul>
+        </div>
+        <div class="cell2">
+            <p>Save Up to 40%</p>
+            <h1>Shop All Our New Markdowns</h1>
+            <img src="nike.png">
+            <ul>
+                <li>New Release</li>
+                <li>Jordan Baskerball</li>
+                <li>Purpose & Community</li>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Kide</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cell1">
+            <h2>Gender (1)</h2>
+            <ul>
+                <li>Men</li>
+                <li>Women</li>
+                <li>Unisex</li>
+            </ul><br>
+            <h2>Shop By Price</h2>
+            <ul>
+                <li>Under $2500.00</li>
+                <li>$2501.00-$7500.00</li>
+                <li>$7501.00-$12999.00</li>
+                <li>Over $13000.00</li>
+            </ul>
+        </div>
+        <div class="shoes-cell">
+            <div class="shoes">
+                <img src="4.1png.jpg">
+                <p class="sale">Just In</p>
+                <p class="name">Show R4 Black</p>
+                <p class="gender">Accessories's Shoes</p>
+                <p class="color">6 Colours</p>
+                <p class="mrp">M R P : $ 5435.53</p>
+            </div>
+            <div class="shoes">
+                <img src="4.2png.jpg">
+                <p class="sale">Just In</p>
+                <p class="name">Vintage Green and Dark</p>
+                <p class="gender">Accessories's Shoes</p>
+                <p class="color">5 Colours</p>
+                <p class="mrp">M R P : $ 534.43</p>
+            </div>
+            <div class="shoes">
+                <img src="4.3png.jpg">
+                <p class="sale">Just In</p>
+                <p class="name">Star Blue </p>
+                <p class="gender">Accessories's Shoes</p>
+                <p class="color">6 Colours</p>
+                <p class="mrp">M R P : $ 3443.60</p>
+            </div>
+            <div class="shoes">
+                <img src="4.4png.jpg">
+                <p class="sale">Just In</p>
+                <p class="name">Nike Blazer MId 77 SE</p>
+                <p class="gender">Accessories's Shoes</p>
+                <p class="color">2 Colours</p>
+                <p class="mrp">M R P : $ 5333.53</p>
+            </div>
+            <div class="shoes">
+                <img src="logo.png">
+                <p class="sale">Just In</p>
+                <p class="name">Vivid Suiphur</p>
+                <p class="gender">Accessories's Shoes</p>
+                <p class="color">2 Colours</p>
+                <p class="mrp">M R P : $ 4575.56</p>
+            </div>
+            <div class="shoes">
+                <img src="omi.png">
+                <p class="sale">Just In</p>
+                <p class="name">Royal and Volt</p>
+                <p class="gender">Accessories's Shoes</p>
+                <p class="color">5 Colours</p>
+                <p class="mrp">M R P : $ 5643.43</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    }
+    
+    h1, h2 {
+    color: #444;
+    }
+    
+    .form-field {
+    margin-bottom: 1rem;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 0.5rem;
+    }
+    
+    input, textarea, button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    }
+    
+    input[type="email"],
+    input[type="tel"] {
+    margin-bottom: 1rem;
+    }
+    
+    #submit{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+    
+    #submit:hover {
+    background-color: #45a049;
+    }
+    header{
+        background-size: cover;
+    }
+    
+    .contact-info {
+    margin-top: 2rem;
+    }
+    
+    .contact-info address {
+    margin-bottom: 1rem;
+    }
+    
+    .contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+    }
+    
+    .contact-info a:hover {
+    text-decoration: underline;
+    }

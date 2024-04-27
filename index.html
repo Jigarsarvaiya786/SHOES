@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="login.html">
+        <div class="container">
+            <h1>Registration</h1>
+            <div class="input-field">
+                <label for="name">First Name :</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="input-field">
+                <label for="number">Mobile No :</label>
+                <input type="tel" id="number" pattern="[0-9]{10}" maxlength="10" required>
+            </div>
+            <div class="input-field">
+                <label for="mail">E-Mail :</label>
+                <input type="email" id="mail" required>
+            </div>
+            <div class="input-field">
+                <label for="password">Password :</label>
+                <input type="password" id="password" required>
+            </div>
+            <input type="submit" id="submit" value="submit">
+        </div>
+    </form>
+</body>
+</html>
